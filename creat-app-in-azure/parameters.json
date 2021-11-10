@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "c44007ce-0884-475d-8661-b6c607629ec4"
+        },
+        "name": {
+            "value": "Mads1974"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-learn040437b57f884044bc9fa305d0-a21f"
+        },
+        "serverFarmResourceGroup": {
+            "value": "learn-040437b5-7f88-4044-bc9f-a305d0a3c4cb"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "errorLink": {
+            "value": "https://Mads1974.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
+        }
+    }
+}
